@@ -1,3 +1,5 @@
+package employees;
+
 public class Employee {
     private String fullName;
     private double salary;
@@ -7,6 +9,11 @@ public class Employee {
         this.salary = salary;
     }
 
+
+    public String getFullName() {
+        return fullName;
+    }
+    
     public String getName() {
         return fullName;
     }
